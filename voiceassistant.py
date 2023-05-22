@@ -32,7 +32,7 @@ def wishMe():
     else:
         speak("Good Evening!")
 
-    speak(" Aii shukla Please tell me how may I help you")
+    speak(" i'm ur voice assistant")
 
 def takeCommand():
     #It takes microphone input from the user and returns string output
@@ -134,7 +134,7 @@ if __name__ == "__main__":
                 speak("Email has been sent!")
             except Exception as e:
                 print(e)
-                speak("Sorry my friend harry bhai. I am not able to send this email")
+                speak("invalid message/email")
 
         elif 'farewell' in query:
             speak("Bye Thanks for using my services")
